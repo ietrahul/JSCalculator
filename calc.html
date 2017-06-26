@@ -1,0 +1,45 @@
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="calc.js"></script>
+</head>
+<body>
+<div class="box">
+<p> ELECTRONIC CALCULATOR </p>
+<div class="display">
+<input type="text" readonly id="d" value="0">
+</div>
+<div class="keys">
+    <p>
+    <input type="button" class="button pink" value="AC" onclick="addExp(this.value)">
+    <input type="button" class="button pink" value="CE" onclick="addExp(this.value)">
+    <input type="button" class="button gray" value="/" onclick="addExp(this.value)">
+    <input type="button" class="button gray" value="*" onclick="addExp(this.value)">
+    </p>
+    <p>
+    <input type="button" class="button gray" value="7" onclick="addExp(this.value)">
+    <input type="button" class="button gray" value="8" onclick="addExp(this.value)">
+    <input type="button" class="button gray" value="9" onclick="addExp(this.value)">
+    <input type="button" class="button gray" value="-" onclick="addExp(this.value)">
+    </p>
+    <p>
+    <input type="button" class="button gray" value="4" onclick="addExp(this.value)">
+    <input type="button" class="button gray" value="5" onclick="addExp(this.value)">
+    <input type="button" class="button gray" value="6" onclick="addExp(this.value)">
+    <input type="button" class="button gray" value="+" onclick="addExp(this.value)">
+    </p>
+    <p>
+    <input type="button" class="button gray" value="1" onclick="addExp(this.value)">
+    <input type="button" class="button gray" value="2" onclick="addExp(this.value)">
+    <input type="button" class="button gray" value="3" onclick="addExp(this.value)">
+    <input type="button" class="button gray equal" value="=" onclick="equal()">
+    </p>
+    <p>
+    <input type="button" class="button gray zero" value="0" onclick="addExp(this.value)">
+    <input type="button" class="button gray" value="." onclick="addExp(this.value)">
+    </p>
+</div>
+</div>
+</body>
+</html>
