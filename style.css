@@ -39,6 +39,7 @@ background-color:#bccd95;
 font-size: 30px;
 text-align:right;
 font-family: 'Orbitron', sans-serif;
+padding-right: 5px;
 }
 
 .keys
@@ -57,12 +58,13 @@ margin-right: 7px;
 cursor:pointer;
 border-top:2px solid transparent;
 box-shadow: 0 3px black;
+outline:none;
 }
 .button.gray
 {
 color:white;
 background-color:#6f6f6f;
-border-bottom:black 2px solid;
+/*border-bottom:black 2px solid;*/
 border-top:2px #6f6f6f solid;
 }
 .button.pink
