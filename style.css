@@ -1,6 +1,7 @@
 body {
-margin-top: 10%;
+margin-top: 7%;
 font-family: 'Orbitron', sans-serif;
+background-color: dimgray;
 }
 
 .box {
@@ -11,6 +12,7 @@ font-family: 'Orbitron', sans-serif;
     border-radius:15px;
     /*position: relative;*/
     padding-top: 10px;
+    margin: 0 auto;
 }
 .box p {
    text-align: center;
@@ -114,5 +116,14 @@ height:80px;
 
 .button.gray.zero
 {
-width:80px;
+width:120px;
+}
+
+.button.gray.equal
+{
+height:88px;
+}
+
+td {
+    padding-bottom: 5px;
 }
