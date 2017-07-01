@@ -7,7 +7,7 @@ background-color: dimgray;
 .box {
 
     width: 290px;
-    height: 340px;
+    height: 350px;
     background-color: #EEE3E6;
     border-radius:15px;
     /*position: relative;*/
@@ -20,21 +20,17 @@ background-color: dimgray;
    margin: 5px 5px 0px 5px;
 }
 
-.display
+/*.display
 {
 background-color:#bccd96;
 width:270px;
-/*position:relative;*/
 margin:10px;
 height:48px;
-}
+}*/
 
 .display input
 {
-/*position:relative;*/
 width:270px;
-left:2px;
-top:2px;
 height:46px;
 color:black;
 background-color:#bccd95;
@@ -42,6 +38,21 @@ font-size: 30px;
 text-align:right;
 font-family: 'Orbitron', sans-serif;
 padding-right: 5px;
+margin:10px 10px 0px 10px;
+border: 0px;
+}
+
+#d2
+{
+width:270px;
+height:23px;
+color:black;
+background-color:#bccd95;
+font-size: 15px;
+text-align:right;
+font-family: 'Orbitron', sans-serif;
+padding-right: 5px;
+margin:0px 10px 10px 10px;
 }
 
 .keys
