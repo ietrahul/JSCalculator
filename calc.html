@@ -1,70 +1,87 @@
 <html>
+
 <head>
-<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Orbitron:500" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron:500" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script type="text/javascript" src="calc.js"></script>
 </head>
+
 <body>
-<div class="box">
-<p> ELECTRONIC CALCULATOR </p>
-<div class="display">
-<input type="text" readonly id="d" value="0">
-<input type="text" readonly id="d2" value="">
-</div>
-<div class="keys">
-    <table width="100%">
-    <tr>
-    <td><input type="button" class="button pink" value="x" onclick="addExp(this.value)">
-    </td><td>
-    <input type="button" class="button pink" value="CE" onclick="addExp(this.value)">
-    </td><td>
-    <input type="button" class="button gray" value="/" onclick="addOperator(this.value)">
-    </td><td>
-    <input type="button" class="button gray" value="*" onclick="addOperator(this.value)">
-    </td></tr>
-    <tr>
-    <td>
-    <input type="button" class="button gray" value="7" onclick="addExp(this.value)">
-    </td><td>
-    <input type="button" class="button gray" value="8" onclick="addExp(this.value)">
-    </td><td>
-    <input type="button" class="button gray" value="9" onclick="addExp(this.value)">
-    </td><td>
-    <input type="button" class="button gray" value="-" onclick="addOperator(this.value)">
-    </td>
-    </tr>
-    <tr>
-    <td>
-    <input type="button" class="button gray" value="4" onclick="addExp(this.value)">
-    </td><td>
-    <input type="button" class="button gray" value="5" onclick="addExp(this.value)">
-    </td><td>
-    <input type="button" class="button gray" value="6" onclick="addExp(this.value)">
-    </td><td>
-    <input type="button" class="button gray" value="+" onclick="addOperator(this.value)">
-    </td>
-    </tr>
-    <tr>
-    <td>
-    <input type="button" class="button gray" value="1" onclick="addExp(this.value)">
-    </td><td>
-    <input type="button" class="button gray" value="2" onclick="addExp(this.value)">
-    </td><td>
-    <input type="button" class="button gray" value="3" onclick="addExp(this.value)">
-    </td><td rowspan="2">
-    <input type="button" class="button gray equal" value="=" onclick="equal()">
-    <td>
-    </tr>
-    <tr>
-    <td colspan=2>
-    <input type="button" class="button gray zero" value="0" onclick="addExp(this.value)">
-    </td><td>
-    <input type="button" class="button gray" value="." onclick="addDecimal()">
-    </td>
-    </tr>
-    </table>
-</div>
-</div>
+  <div class="box">
+    <p> ELECTRONIC CALCULATOR </p>
+    <div class="display">
+      <input type="text" readonly id="d" value="0">
+      <input type="text" readonly id="d2" value="">
+    </div>
+    <div class="keys">
+      <table width="100%">
+        <tr>
+          <td><input type="button" class="button pink" value="&#x232B;" onclick="addExp(this.value)">
+          </td>
+          <td>
+            <input type="button" class="button pink" value="CE" onclick="addExp(this.value)">
+          </td>
+          <td>
+            <input type="button" class="button gray" value="/" onclick="addOperator(this.value)">
+          </td>
+          <td>
+            <input type="button" class="button gray" value="*" onclick="addOperator(this.value)">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="button" class="button gray" value="7" onclick="addExp(this.value)">
+          </td>
+          <td>
+            <input type="button" class="button gray" value="8" onclick="addExp(this.value)">
+          </td>
+          <td>
+            <input type="button" class="button gray" value="9" onclick="addExp(this.value)">
+          </td>
+          <td>
+            <input type="button" class="button gray" value="-" onclick="addOperator(this.value)">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="button" class="button gray" value="4" onclick="addExp(this.value)">
+          </td>
+          <td>
+            <input type="button" class="button gray" value="5" onclick="addExp(this.value)">
+          </td>
+          <td>
+            <input type="button" class="button gray" value="6" onclick="addExp(this.value)">
+          </td>
+          <td>
+            <input type="button" class="button gray" value="+" onclick="addOperator(this.value)">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="button" class="button gray" value="1" onclick="addExp(this.value)">
+          </td>
+          <td>
+            <input type="button" class="button gray" value="2" onclick="addExp(this.value)">
+          </td>
+          <td>
+            <input type="button" class="button gray" value="3" onclick="addExp(this.value)">
+          </td>
+          <td rowspan="2">
+            <input type="button" class="button gray equal" value="=" onclick="equal()">
+            <td>
+        </tr>
+        <tr>
+          <td colspan=2>
+            <input type="button" class="button gray zero" value="0" onclick="addExp(this.value)">
+          </td>
+          <td>
+            <input type="button" class="button gray" value="." onclick="addDecimal()">
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
 </body>
+
 </html>
